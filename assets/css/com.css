@@ -1,21 +1,20 @@
-@media (max-width: 768px) {
-  .video-player {
-    width: 100%;
-    background: 0 0;
-  }
-  .video-player iframe {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    margin: auto;
-  }
-  #frame {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    margin: auto;
-  }
+div.video {
+  background-color: #f5e051;
+  margin-bottom: 30px;
+  margin: 0px -20px 30px -20px;
+  padding: 20px;
+  padding-bottom: 60%;
+  position: relative;
+
 }
+div.video > iframe{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 101%;
+}
+
 
 * {
   font-family: helvetica, arial, sans-serif;
